@@ -20,7 +20,7 @@ public class KafkaMessagePublisherService {
     }
 
     public String sayHi() {
-        return "Hi Marielle !!!";
+        return "Hi Marielle, i am here with you :) !!!";
     }
 
 
