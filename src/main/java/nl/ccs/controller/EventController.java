@@ -37,7 +37,7 @@ public class EventController {
         return ResponseEntity.ok(kafkaMessagePublisherService.sayHi());
     }
 
-    @GetMapping("/sayHi")
+    @GetMapping("/sayBye")
     public ResponseEntity<String> sayBye() {
         return ResponseEntity.ok(kafkaMessagePublisherService.sayHi());
     }
