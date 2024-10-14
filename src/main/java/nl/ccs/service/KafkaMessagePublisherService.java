@@ -23,5 +23,9 @@ public class KafkaMessagePublisherService {
         return "Hi Marielle, i am here with you :) !!!";
     }
 
+    public String sayBye() {
+        return "Hi Marielle, i have to go :( !!!";
+    }
+
 
 }
